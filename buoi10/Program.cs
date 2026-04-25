@@ -21,7 +21,17 @@ void TinhTich (int a, int b)
 {
     int tich = a * b;
     int soCuoi = tich * 3;
-    Console.WriteLine(tich);
+    Console.WriteLine(soCuoi);
 }
 TinhTich(3, 4);
 TinhTich(4, 5);
+
+//bang cuu chuong
+void BangCuuChuong(int so)
+{
+    for (int i = 1; i <= 10; i++)
+    {
+        Console.WriteLine($"{so} X {i} = {so * i}");
+    }
+}
+BangCuuChuong(5);
